@@ -1,0 +1,17 @@
+table, th, td {
+    border: 2px solid;
+    background-color: aliceblue;
+}
+body {
+    
+    background-color: chocolate;
+}
+.red {
+    background-color: red;
+}
+.white {
+    background-color: white;
+}
+.blue{
+ background-color: blue;
+}

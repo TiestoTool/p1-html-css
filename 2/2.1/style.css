@@ -1,0 +1,75 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  html {
+    font-size: 62.5%;
+  }
+  body {
+    font-family: "Goldman", cursive;
+  }
+  
+  nav {
+    display: flex;
+    width: 100%;
+    padding: 2rem;
+    min-height: 10vh;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: auto;
+    background: #0d4901;
+    justify-content: space-between;
+  }
+  nav ul {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+  }
+  nav li {
+    font-size: 2.5rem;
+    padding: 0 4rem 0 4rem;
+  }
+  nav a {
+    color: white;
+    text-decoration: none;
+  }
+  nav img {
+    width: 5vw;
+  }
+
+h1  {text-align: center;}
+
+h2  {text-align: left;}
+
+p   {text-align: center;}
+
+img {text-align: left;}
+
+
+.classfoto2epagina {height: 15%;}
+.foto2epagina {width: 15%;}
+
+
+a   {text-align: center;}
+.homebutton {
+    height: 100px;
+    width: 100px;
+}
+.tiestop {
+  text-align: left;
+}
+.hoofdpagina{
+  text-decoration: none;
+}
+.ouder-avondp1{
+  text-align: left;
+}
+.foto-tiesto{
+  width: 25em;
+}
+.foto-pascal{
+  width: 15em;
+  height: 15em;
+}

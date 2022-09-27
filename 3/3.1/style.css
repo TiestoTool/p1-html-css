@@ -68,12 +68,13 @@
     position: relative;
     top:30rem
   }
-  img{
+  main img{
+    width: 3em;
     font-size: 6em;
     position: relative;
     top: -40rem;
   }
   .img-left{
     position: relative;
-    left: 50rem;
+    left: 100rem;
   } 

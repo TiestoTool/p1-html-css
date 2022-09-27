@@ -78,3 +78,7 @@
     position: relative;
     left: 100rem;
   } 
+  footer {
+    text-align: center;
+    height: 100vh;
+  }

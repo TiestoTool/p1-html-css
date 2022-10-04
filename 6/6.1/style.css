@@ -1,0 +1,30 @@
+.flex-container{
+    display: flex;
+    
+    flex-direction: row;
+    justify-content: center;
+}
+.item0{
+    background-color: blue;
+    width: 100px;
+    height: 100px;
+    margin: 1vh 1vw;
+}
+.item1{
+    background-color: black;
+    width: 100px;
+    height: 100px;
+    margin: 1vh 1vw;
+}
+.item2{
+    background-color: red;
+    width: 100px;
+    height: 100px;
+    margin: 1vh 1vw;
+}
+.item3{
+    background-color:green;
+    width: 100px;
+    height: 100px;
+    margin: 1vh 1vw;
+}

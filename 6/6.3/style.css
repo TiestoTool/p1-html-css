@@ -1,0 +1,28 @@
+* {
+    
+    margin: 0;
+    padding: 0;
+     
+  }
+
+.flex-container{
+display: flex;
+justify-content: space-around;
+   color: blue;
+}
+.flex-container2{
+    width: 30vw;
+    display: flex;
+    justify-content: space-between;
+   color: blue;
+}
+
+.q{
+    display: flex;
+    justify-content: space-between;
+}
+.w{
+    display: flex;
+    justify-content: space-around;
+}
+

@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Pattaya&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+  }
+  @media screen and (max-width: 767px) {
+    body {overflow: auto;}
+  }
+.h1one{
+    color: white;
+    font-family: "Pattaya";
+}
+nav ul {
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+}
+nav li {
+;
+  padding: 0 4rem 0 4rem;
+}
+nav a {
+    color: white;
+    text-decoration: none;}
+    
+  nav{
+  position: sticky;
+  display: flex;
+  width: 100%;
+  padding: 2rem;
+  min-height: 10vh;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: auto;
+  background: #000000;
+  justify-content: space-between;
+  text-decoration: none;
+  
+}

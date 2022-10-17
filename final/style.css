@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Pattaya&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
 * {
     margin: 0;
@@ -6,7 +7,7 @@
     box-sizing: border-box;
     
   }
-  @media screen and (max-width: 767px) {
+  @media screen and (max-width: 766px) {
     body {overflow: auto;}
   }
 .h1one{
@@ -17,9 +18,10 @@ nav ul {
   display: flex;
   align-items: center;
   list-style-type: none;
+  font-family: "Poppins";
 }
 nav li {
-;
+
   padding: 0 4rem 0 4rem;
 }
 nav a {
@@ -27,7 +29,8 @@ nav a {
     text-decoration: none;}
     
   nav{
-  position: sticky;
+    z-index: 1;
+  position: fixed;
   display: flex;
   width: 100%;
   padding: 2rem;
@@ -39,4 +42,69 @@ nav a {
   justify-content: space-between;
   text-decoration: none;
   
+}
+.background1{
+  background-image: image();
+
+width: 99.05vw;
+    height: 150vh;
+    background-image: url(./IMAGES/landing-page.jpg);
+    background-size: cover;
+    
+}
+.hoofd1{
+  font-family: "Poppins";
+  color: white;
+ position: relative;
+ bottom: 35rem;
+ left: 35rem;
+}
+.main1{
+  font-family: "Poppins";
+  font-size: 1.6em;
+  color: white;
+  position: relative;
+  bottom: 35rem;
+ left: 0rem;
+ text-align: center;
+}
+.button1{
+  font-family: "Poppins";
+  font-size: 1.6em;
+  color: white;
+  background-color: rgb(115, 164, 244);
+  position: relative;
+  bottom: 30rem;
+ left: 35rem;
+ border: none;
+ height: 20vh;
+ width: 50vh;
+}
+.backgroud2{
+  background-image: image();
+position: relative;
+bottom: 30rem;
+width: 99.05vw;
+    height: 150vh;
+    background-image: url(./IMAGES/new-york-page.png);
+    background-size: cover;
+    
+}
+.hoofd2{
+  text-decoration: underline;
+  font-family: "Poppins";
+  font: 1.6em;
+  color: rgb(0, 0, 0);
+ position: relative;
+ bottom: 70rem;
+ left: 3rem;
+}
+.main2{
+  font-family: "Poppins";
+  font-size: 1.6em;
+  color: rgb(0, 0, 0);
+  position: relative;
+  bottom: 65rem;
+ left: -25rem;
+ text-align: center;
 }

@@ -21,11 +21,15 @@ nav ul {
   font-family: "Poppins";
 }
 nav li {
-
+  display: flex;
+  justify-content: flex-end;
   padding: 0 4rem 0 4rem;
 }
 nav a {
+  display: flex;
+  justify-content: flex-end;
     color: white;
+    text-align: end;
     text-decoration: none;}
     
   nav{
@@ -107,4 +111,76 @@ width: 99.05vw;
   bottom: 65rem;
  left: -25rem;
  text-align: center;
+}
+
+.balkje{
+  position: relative;
+  bottom: 39rem;
+  background-color: rgb(33, 37, 37);
+  height: 20vh;
+}
+.h2balkje{
+  font-size: 1.6em;
+  font-family: "Poppins";
+  color: white;
+  text-align: center;
+}
+.pbalkje{
+  font-size: 1.3em;
+  font-family: "Poppins";
+  text-align: center;
+  color: white;
+}
+
+.flex-container{
+  display: flex;
+  
+  flex-direction: row;
+  justify-content: space-around;
+}
+.item0{
+  position: relative;
+  bottom: 30rem;
+  background-color: rgb(255, 255, 255);
+  width: 15em;
+  height: 20em;
+  margin: -10vh 1vw;
+  box-shadow: 0rem 0.5rem 1rem 0rem;
+}
+.item1{
+  position: relative;
+  bottom: 30rem;
+  background-color: rgb(255, 255, 255);
+  width: 15em;
+  height: 20em;
+  margin: -10vh 1vw;
+  box-shadow: 0rem 0.5rem 1rem 0rem;
+}
+.item2{
+  position: relative;
+  bottom: 30rem;
+  background-color: rgb(255, 255, 255);
+  width: 15em;
+  height: 20em;
+  margin: -10vh 1vw;
+  box-shadow: 0rem 0.5rem 1rem 0rem;
+}
+.main3 {
+  margin: 8vh;
+  font-family: "Poppins";
+  font-size: 1.6em;
+  color: rgb(0, 0, 0);
+ text-align: center;
+}
+.main4 {
+  font-family: "Poppins";
+  font-size: 0.8em;
+  color: rgb(0, 0, 0);
+ text-align: center;
+}
+.imgdiv{
+  
+  width: 100%;
+ 
+  background-color: #000000;
 }

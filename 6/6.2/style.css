@@ -8,25 +8,19 @@
     justify-content: center;
 }
 .item0{
-    background-color: blue;
+    background-color: rgb(255, 255, 255);
     width: 100px;
     height: 100px;
     margin: 1vh 1vw;
 }
 .item1{
-    background-color: black;
+    background-color: rgb(255, 254, 254);
     width: 100px;
     height: 100px;
     margin: 1vh 1vw;
 }
 .item2{
-    background-color: red;
-    width: 100px;
-    height: 100px;
-    margin: 1vh 1vw;
-}
-.item3{
-    background-color:green;
+    background-color: rgb(253, 246, 246);
     width: 100px;
     height: 100px;
     margin: 1vh 1vw;

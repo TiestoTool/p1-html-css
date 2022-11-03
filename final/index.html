@@ -10,19 +10,21 @@
   </head>
   <body>
     <nav>
-      <ul>
+      <ul class="a">
         <li>
           <h1 class="h1one">Travelly</h1>
         </li>
-        <li>
-          <a href="">location</a>
-        </li>
-        <li>
-          <a href="">benefits</a>
-        </li>
-        <li>
-          <a href="">contact</a>
-        </li>
+        <ul class="b">
+          <li>
+            <a href="">location</a>
+          </li>
+          <li>
+            <a href="">benefits</a>
+          </li>
+          <li>
+            <a href="">contact</a>
+          </li>
+        </ul>
       </ul>
     </nav>
     <section class="background1"></section>
@@ -51,8 +53,8 @@
     <section class="flex-container">
       <div class="item0">
         <div class="imgdiv">
-        <img  src="IMAGES/route-solid.svg" alt="route">
-      </div>
+          <img class="imgdiv2" src="IMAGES/route-solid.svg" alt="route" />
+        </div>
         <h2 class="main3">Travel</h2>
         <p class="main4">
           Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestiae,
@@ -63,8 +65,8 @@
       </div>
       <div class="item1">
         <div class="imgdiv">
-        <img  src="IMAGES/bed-solid.svg" alt="bed">
-      </div>
+          <img class="imgdiv2" src="IMAGES/bed-solid.svg" alt="bed" />
+        </div>
         <h2 class="main3">Hotel</h2>
         <p class="main4">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus
@@ -74,10 +76,13 @@
         </p>
       </div>
       <div class="item2">
-       
         <div class="imgdiv">
-        <img  src="IMAGES/plane-departure-solid.svg" alt="plaatjevliegtuig">
-      </div>
+          <img
+            class="imgdiv2"
+            src="IMAGES/plane-departure-solid.svg"
+            alt="plaatjevliegtuig"
+          />
+        </div>
         <h2 class="main3">Fly</h2>
         <p class="main4">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum ab
@@ -87,5 +92,23 @@
         </p>
       </div>
     </section>
+    <section class="background3">
+      <div class="contact">
+        <h1 class="h1contact">contact us</h1>
+        <br />
+        <br />
+        <div class="contactuss">
+          <p>name</p>
+          <input type="text" />
+
+          <p>email</p>
+          <input type="text" />
+        </div>
+        <button class="buttoncontact">submit</button>
+      </div>
+    </section>
+    <footer>
+      <p>Travelly</p>
+    </footer>
   </body>
 </html>
